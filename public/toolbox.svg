@@ -1,0 +1,9 @@
+<svg height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <path style="fill:#444444;" d="M365.378,152.011h-33.391v-45.787c0-11.855-9.646-21.501-21.502-21.501H201.518 c-11.856,0-21.502,9.646-21.502,21.501v45.788h-33.391v-45.788c0-30.267,24.625-54.892,54.893-54.892h108.967 c30.268,0,54.893,24.625,54.893,54.892V152.011z"/> <path style="fill:#282828;" d="M365.378,152.011h-33.391v-45.787c0-11.855-9.646-21.501-21.502-21.501H256V51.332h54.484 c30.268,0,54.893,24.625,54.893,54.892v45.787H365.378z"/> <path style="fill:#deb7f0;" d="M483.245,460.668H28.755V257.542h454.489L483.245,460.668L483.245,460.668z"/> <g> <path style="fill:#b15fd6;" d="M483.245,460.668H256V257.542h227.244L483.245,460.668L483.245,460.668z"/> <path style="fill:#b15fd6;" d="M512,290.933H0V135.315h512V290.933z"/> </g> <path style="fill:#7d3299;" d="M512,290.933H256V135.315h256V290.933z"/> <path style="fill:#444444;" d="M297.739,319.999h-83.478v-83.478h83.478V319.999z"/> <path style="fill:#282828;" d="M297.739,319.999H256v-83.478h41.739V319.999z"/> </g>
+
+</svg>

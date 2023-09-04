@@ -17,6 +17,12 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/tools/calculators/ovulationCalulators.tsx",
+    "src/tools/converters/unitConverters/units.tsx"
+  ],
   "exclude": ["node_modules"]
 }
