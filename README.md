@@ -1,38 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ToolBoxed - Your Friendly Online Toolkit
 
-## Getting Started
+Welcome to ToolBoxed, your one-stop-shop for all things tool-related on the web! We believe that tools don't have to be boring, so we've infused a dash of fun into every click.
 
-First, run the development server:
+## What's Inside?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### 🛠️ Password Tools
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Password Generator:** Whip up a totally rad random password.
+- **Password Strength Checker:** See if your password can stand up to a fortress or if it's more like a cardboard box.
+- **Password Hasher:** Turn your password into a secret code even James Bond would envy.
+- **Password Breach Checker:** Discover if your password's secret life was exposed on the internet.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### 🔢 Calculators
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- **Calculator:** Crunch numbers without breaking a sweat.
+- **EMI Calculator:** Calculate EMI and stay on top of your finances.
+- **Area Calculator:** Measure spaces without getting tangled in measuring tapes.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### 🔄 Converters
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Unit Converter:** Convert units like a wizard with our magical tool.
+- **Currency Converter:** Turn your money into other money with our coin-flipping converter.
 
-## Learn More
+### ✏️ Text Tools
 
-To learn more about Next.js, take a look at the following resources:
+- **Case Converter:** Transform text into uppercase, lowercase, or even give it a fancy title.
+- **Text Encoder:** Turn your text into secret codes like base64, binary, hex, and more.
+- **Text Encryptor:** Give your text a cloak of invisibility with AES, DES, and more encryption.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🌄 Image Tools
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Placeholder Image Generator:** Create cool placeholder images for your creative projects.
 
-## Deploy on Vercel
+## Get Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Head over to [ToolBoxed](https://toolboxed.in) and start exploring the fun side of tools!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Have a suggestion or want to report a bug? Feel free to open an issue or reach out to us. We're here to make your tool-tastic journey enjoyable!
+
+Happy tooling! 🛠️✨
