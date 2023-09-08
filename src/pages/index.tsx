@@ -12,7 +12,9 @@ import { LuCaseSensitive } from 'react-icons/lu';
 import { MdEnhancedEncryption } from 'react-icons/md';
 import { AiOutlineCalculator } from 'react-icons/ai';
 import { BiArea } from 'react-icons/bi';
-import Link from 'next/link';
+import { HiOutlineReceiptTax } from 'react-icons/hi';
+import { LuSplit } from 'react-icons/lu';
+import GridComponent from '@/components/gridComponent';
 
 const IndexPage = () => {
   return (
@@ -25,151 +27,20 @@ const IndexPage = () => {
           Your one-stop toolbox for all things practical and playful. From
           calculators to creative generators, we&apos;ve got you covered!
         </p>
-        <div
-          className='border-b-2 border-biloba-flower-800 pb-10'
-          id='password-tools'
-        >
-          <h2 className='text-3xl font-lexend font-bold text-center py-8 lg:py-10 text-biloba-flower-700'>
-            Password Tools
-          </h2>
-          <div className='grid lg:grid-cols-2 gap-3'>
-            {links.passwordTools.map((link) => (
-              <Link
-                key={link.name}
-                href={link.link}
-                className='hover:bg-biloba-flower-50 hover:shadow-xl w-full max-w-lg mx-auto pt-4 pb-6 rounded-md transition-all duration-150'
-              >
-                <div className='grid grid-cols-4'>
-                  <div className='col-span-1 flex items-center justify-center text-3xl text-biloba-flower-800'>
-                    {link.icon}
-                  </div>
-                  <div className='mt-4 col-span-3 flex items-start justify-start flex-col'>
-                    <div className='font-lexend text-xl font-bold text-biloba-flower-800'>
-                      {link.name}
-                    </div>
-                    <div className='font-poppins'>{link.description}</div>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div
-          className='border-b-2 border-biloba-flower-800 pb-10'
-          id='text-tools'
-        >
-          <h2 className='text-3xl font-lexend font-bold text-center py-8 lg:py-10 text-biloba-flower-700'>
-            Text Tools
-          </h2>
-          <div className='grid lg:grid-cols-2 gap-3'>
-            {links.textTools.map((link) => (
-              <Link
-                key={link.name}
-                href={link.link}
-                className='hover:bg-biloba-flower-50 hover:shadow-xl w-full max-w-lg mx-auto pt-4 pb-6 rounded-md transition-all duration-150'
-              >
-                <div className='grid grid-cols-4'>
-                  <div className='col-span-1 flex items-center justify-center text-3xl text-biloba-flower-800'>
-                    {link.icon}
-                  </div>
-                  <div className='mt-4 col-span-3 flex items-start justify-start flex-col'>
-                    <div className='font-lexend text-xl font-bold text-biloba-flower-800'>
-                      {link.name}
-                    </div>
-                    <div className='font-poppins'>{link.description}</div>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div
-          className='border-b-2 border-biloba-flower-800 pb-10'
-          id='calculators'
-        >
-          <h2 className='text-3xl font-lexend font-bold text-center py-8 lg:py-10 text-biloba-flower-700'>
-            Calculators
-          </h2>
-          <div className='grid lg:grid-cols-2 gap-3'>
-            {links.calculator.map((link) => (
-              <Link
-                key={link.name}
-                href={link.link}
-                className='hover:bg-biloba-flower-50 hover:shadow-xl w-full max-w-lg mx-auto pt-4 pb-6 rounded-md transition-all duration-150'
-              >
-                <div className='grid grid-cols-4'>
-                  <div className='col-span-1 flex items-center justify-center text-3xl text-biloba-flower-800'>
-                    {link.icon}
-                  </div>
-                  <div className='mt-4 col-span-3 flex items-start justify-start flex-col'>
-                    <div className='font-lexend text-xl font-bold text-biloba-flower-800'>
-                      {link.name}
-                    </div>
-                    <div className='font-poppins'>{link.description}</div>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div
-          className='border-b-2 border-biloba-flower-800 pb-10'
-          id='converters'
-        >
-          <h2 className='text-3xl font-lexend font-bold text-center py-8 lg:py-10 text-biloba-flower-700'>
-            Converters
-          </h2>
-          <div className='grid lg:grid-cols-2 gap-3'>
-            {links.unitConverter.map((link) => (
-              <Link
-                key={link.name}
-                href={link.link}
-                className='hover:bg-biloba-flower-50 hover:shadow-xl w-full max-w-lg mx-auto pt-4 pb-6 rounded-md transition-all duration-150'
-              >
-                <div className='grid grid-cols-4'>
-                  <div className='col-span-1 flex items-center justify-center text-3xl text-biloba-flower-800'>
-                    {link.icon}
-                  </div>
-                  <div className='mt-4 col-span-3 flex items-start justify-start flex-col'>
-                    <div className='font-lexend text-xl font-bold text-biloba-flower-800'>
-                      {link.name}
-                    </div>
-                    <div className='font-poppins'>{link.description}</div>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div
-          className='border-b-2 border-biloba-flower-800 pb-10'
-          id='image-tools'
-        >
-          <h2 className='text-3xl font-lexend font-bold text-center py-8 lg:py-10 text-biloba-flower-700'>
-            Image Tools
-          </h2>
-          <div className='grid lg:grid-cols-2 gap-3'>
-            {links.imageTools.map((link) => (
-              <Link
-                key={link.name}
-                href={link.link}
-                className='hover:bg-biloba-flower-50 hover:shadow-xl w-full max-w-lg mx-auto pt-4 pb-6 rounded-md transition-all duration-150'
-              >
-                <div className='grid grid-cols-4'>
-                  <div className='col-span-1 flex items-center justify-center text-3xl text-biloba-flower-800'>
-                    {link.icon}
-                  </div>
-                  <div className='mt-4 col-span-3 flex items-start justify-start flex-col'>
-                    <div className='font-lexend text-xl font-bold text-biloba-flower-800'>
-                      {link.name}
-                    </div>
-                    <div className='font-poppins'>{link.description}</div>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
+        <GridComponent component={links.calculator} category='Calculators' />
+        <GridComponent
+          component={links.passwordTools}
+          category='Password Tools'
+        />
+        <GridComponent component={links.textTools} category='Text Tools' />
+        <GridComponent
+          component={links.unitConverter}
+          category='Unit Converter'
+        />
+        <GridComponent
+          component={links.imageTools}
+          category='Image Component'
+        />
       </div>
     </div>
   );
@@ -271,6 +142,24 @@ const links = {
       description: 'Plan your future family with our handy ovulation wizard!',
       link: '/ovulation-predictor',
       icon: <BsCalendar4Range />,
+    },
+    {
+      name: 'Tip Calculator',
+      description: 'Calculate tips and make your waiter happy!',
+      link: '/calculators/tip-calculator',
+      icon: <GiPayMoney />,
+    },
+    {
+      name: 'Tax Calculator',
+      description: 'Calculate taxes and make your accountant happy!',
+      link: '/calculators/tax-calculator',
+      icon: <HiOutlineReceiptTax />,
+    },
+    {
+      name: 'Bill Splitter',
+      description: 'Split bills and make your friends happy!',
+      link: '/calculators/bill-splitter',
+      icon: <LuSplit />,
     },
   ],
 
