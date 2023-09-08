@@ -13,7 +13,7 @@ const TipCalculator = () => {
 
   return (
     <div className='min-h-screen bg-biloba-flower-100'>
-      <div className='max-w-7xl mx-auto py-8 lg:py-10'>
+      <div className='max-w-7xl mx-auto'>
         <h1 className='text-3xl font-bold font-lexend text-center py-8 lg:py-10 text-biloba-flower-700'>
           Tip Calculator
         </h1>
