@@ -14,6 +14,7 @@ import { AiOutlineCalculator } from 'react-icons/ai';
 import { BiArea } from 'react-icons/bi';
 import { HiOutlineReceiptTax } from 'react-icons/hi';
 import { LuSplit } from 'react-icons/lu';
+import { PiClockCountdownFill } from 'react-icons/pi';
 import GridComponent from '@/components/gridComponent';
 
 const IndexPage = () => {
@@ -28,6 +29,7 @@ const IndexPage = () => {
           calculators to creative generators, we&apos;ve got you covered!
         </p>
         <GridComponent component={links.calculator} category='Calculators' />
+        <GridComponent component={links.timers} category='Timers' />
         <GridComponent
           component={links.passwordTools}
           category='Password Tools'
@@ -76,6 +78,20 @@ const links = {
         'Discover if your passwords secret life was exposed on the internet!',
       link: '/password-tools/password-breach-checker',
       icon: <BsCheck2Circle />,
+    },
+  ],
+  timers: [
+    {
+      name: 'Countdown Timer',
+      description: 'Countdown to a special event in your life!',
+      link: '/timers/countdown-timer',
+      icon: <PiClockCountdownFill />,
+    },
+    {
+      name: 'Minutes Countdown',
+      description: 'Countdown minutes and seconds!',
+      link: '/timers/minutes-countdown',
+      icon: <PiClockCountdownFill />,
     },
   ],
   textTools: [
