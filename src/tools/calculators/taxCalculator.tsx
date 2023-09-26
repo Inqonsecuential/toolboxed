@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 
 const TaxCalculator = () => {
   const [cost, setCost] = useState<number | null>(null);
-  const [tax, setTax] = useState<number | null>(null);
+  const [tax, setTax] = useState<number | null>(18);
+  const [taxAmount, setTaxAmount] = useState<number | null>(null);
   const [total, setTotal] = useState<number | null>(null);
 
   // Calculate tax when tax percentage and total are provided
@@ -12,6 +13,10 @@ const TaxCalculator = () => {
         const calculatedTax = ((total - cost) / cost) * 100;
         setTax(parseFloat(calculatedTax.toFixed(2)));
       }
+      if (cost !== null) {
+        const totalTaxAmount = total - cost;
+        setTaxAmount(parseFloat(totalTaxAmount.toFixed(2)));
+      }
     }
   };
 
@@ -20,6 +25,10 @@ const TaxCalculator = () => {
     if (cost !== null && tax !== null) {
       const calculatedTotal = cost + cost * (tax / 100);
       setTotal(parseFloat(calculatedTotal.toFixed(2)));
+    }
+    if (cost !== null && total !== null) {
+      const totalTaxAmount = total - cost;
+      setTaxAmount(parseFloat(totalTaxAmount.toFixed(2)));
     }
   };
 
@@ -80,6 +89,22 @@ const TaxCalculator = () => {
               id='total'
               className='w-48 text-center border-2 border-biloba-flower-500 rounded-md px-3 py-2 font-poppins focus:border-cornflower-500 focus:outline-none transition duration-300 ease-in-out'
               value={total === null ? '' : total}
+              onChange={(e) => setTotal(parseFloat(e.target.value))}
+            />
+          </div>
+          <div className='mb-4'>
+            <label
+              htmlFor='total'
+              className='block text-biloba-flower-900 font-poppins mb-2 text-sm'
+            >
+              Total Tax Amount:
+            </label>
+            <input
+              type='number'
+              id='total'
+              disabled
+              className='w-48 text-center border-2 border-biloba-flower-500 rounded-md px-3 py-2 font-poppins focus:border-cornflower-500 focus:outline-none transition duration-300 ease-in-out'
+              value={taxAmount === null ? '' : taxAmount}
               onChange={(e) => setTotal(parseFloat(e.target.value))}
             />
           </div>

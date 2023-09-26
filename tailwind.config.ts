@@ -7,6 +7,7 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     './src/sections/**/*.{js,ts,jsx,tsx,mdx}',
     './src/tools/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/games/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
@@ -46,6 +47,7 @@ const config: Config = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         lexend: ['Lexend', 'sans-serif'],
+        martian: ['Martian Mono', 'sans-serif'],
       },
     },
   },
