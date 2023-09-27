@@ -1,4 +1,4 @@
-import PlaceholderImageGenerator from '@/tools/generators/placeholderImageGenerator';
+import PlaceholderImageGenerator from '@/tools/ImageTools/placeholderImageGenerator';
 import React from 'react';
 import Head from 'next/head';
 

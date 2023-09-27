@@ -7,7 +7,8 @@ import {
   BsStopwatch,
   BsFillGrid3X3GapFill,
 } from 'react-icons/bs';
-import { GiStrongbox, GiPayMoney } from 'react-icons/gi';
+import { GiStrongbox, GiPayMoney, GiSandSnake } from 'react-icons/gi';
+import { FaCompressArrowsAlt } from 'react-icons/fa';
 import { SiConvertio, SiTextpattern } from 'react-icons/si';
 import { LuCaseSensitive } from 'react-icons/lu';
 import { MdEnhancedEncryption } from 'react-icons/md';
@@ -169,13 +170,25 @@ export const links = {
       link: '/image-tools/placeholder-image-generator',
       icon: <PiPlaceholder />,
     },
+    {
+      name: 'Image Compressor',
+      description: 'Compress an image to your desired size',
+      link: '/image-tools/image-compressor',
+      icon: <FaCompressArrowsAlt />,
+    },
   ],
   games: [
     {
       name: '2048',
-      description: 'Merge to 2048.',
+      description: 'Merge numbers till you get to 2048.',
       link: '/games/2048',
       icon: <BsFillGrid3X3GapFill />,
+    },
+    {
+      name: 'Snake',
+      description: 'Classic snake game',
+      link: '/games/snake',
+      icon: <GiSandSnake />,
     },
   ],
 };

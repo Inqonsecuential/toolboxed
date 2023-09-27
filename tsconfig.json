@@ -23,7 +23,7 @@
     "**/*.tsx",
     "src/tools/calculators/ovulationCalulators.tsx",
     "src/tools/converters/unitConverters/units.tsx",
-    "src/games/2048/2048.jsx"
+    "src/games/2048/2048.tsx"
   ],
   "exclude": ["node_modules"]
 }

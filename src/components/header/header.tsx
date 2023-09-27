@@ -32,7 +32,7 @@ const tools: Tools[] = [
 
 const Header = () => {
   return (
-    <div className='bg-biloba-flower-200'>
+    <div className='bg-biloba-flower-200 sticky top-0 z-50'>
       <div className='max-w-7xl mx-auto'>
         <div className='flex justify-between items-end py-6 md:space-x-10 px-3'>
           <div className='flex items-end justify-center font-lexend space-x-3'>
