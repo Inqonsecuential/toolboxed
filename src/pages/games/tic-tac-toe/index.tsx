@@ -1,4 +1,3 @@
-import TicTacToe from '@/games/tictactoe/ticTacToe';
 import React from 'react';
 import Head from 'next/head';
 import JSXStyle from 'styled-jsx/style';
@@ -10,8 +9,7 @@ const IndexPage = () => {
         <title>Tic Tac Toe</title>
         <meta name='description' content='Tic Tac Toe' />
       </Head>
-      <TicTacToe />
-      <JSXStyle></JSXStyle>
+      TTT
     </div>
   );
 };
